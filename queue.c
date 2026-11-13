@@ -1,6 +1,7 @@
 #include <mqueue.h>
 #include <errno.h>
 
+#define EMSGLOBALS 1
 #include "ems.h"
 #include "defines.h"
 

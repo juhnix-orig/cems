@@ -17,6 +17,7 @@
 #include <uuid/uuid.h>
 #include <unistd.h>      // for usleep()
 
+#define EMSGLOBALS
 #include "ems.h"
 
 extern int usleep (__useconds_t __useconds);

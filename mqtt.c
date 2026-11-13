@@ -13,6 +13,7 @@
 #include <unistd.h>
 #include <string.h>
 
+#define EMSGLOBALS
 #include "ems.h"
 
 void mosqLogCallback(struct mosquitto *mosq, void *userdata, int level, const char *str);

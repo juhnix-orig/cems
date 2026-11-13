@@ -1,1 +1,8 @@
 *.o
+emsCommand
+emsDecode
+emsMonitor
+emsMqtt
+emsMsb
+emsSerio
+parser/parser.a

@@ -26,6 +26,7 @@
 #include <linux/prctl.h>
 #include "parser/parser.h" // config file handling
 
+#define EMSGLOBALS
 #include "ems.h"
 
 int getConfig(enum varType varType, void *var, char *defVal, char *cFile, char *group, char *key);

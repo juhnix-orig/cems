@@ -113,11 +113,21 @@ struct _ems_ {
 
 typedef struct _ems_ ems;
 
-ems *emsPtr;
 
 // global vars (yeah, I know ...)
+#ifndef EMSGLOBALS
+#define EMSGLOBALS
 int ShmId;
 int Debug;
 char DaemonName[MAXNAME]; // use this for daemon name
 int Daemon;
 int Line;
+ems *emsPtr;
+#else
+extern int ShmId;
+extern int Debug;
+extern char* DaemonName;
+extern int Daemon;
+extern int Line;
+extern ems *emsPtr;
+#endif

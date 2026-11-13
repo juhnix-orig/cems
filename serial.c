@@ -7,7 +7,7 @@
 int port;
 tcflag_t tcflag_normal;
 tcflag_t tcflag_parity;
-struct termios tios;
+extern struct termios tios;
 
 int open_serial(char *tty_path) {
     // Opens a raw serial with parity marking enabled

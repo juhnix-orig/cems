@@ -6,6 +6,7 @@
 #include <sys/time.h>
 #include <string.h>
 
+#define EMSGLOBALS
 #include "ems.h"
 #include "serial.h"
 #include "emsSerio.h"
